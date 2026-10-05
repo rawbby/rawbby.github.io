@@ -1,0 +1,29 @@
+title: Robert Andreas Fritsch
+author: Robert Andreas Fritsch
+email: info@robert-fritsch.de
+description: >-
+  C++ engineer focused on performance: algorithm engineering, parallel and
+  distributed computing, and GPU programming.
+url: "https://robert-fritsch.de"
+baseurl: ""
+
+github_username: rawbby
+linkedin_username: robert-andreas-fritsch
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - index.md
+  - posts.md
+
+permalink: /posts/:title/
+
+minima:
+  date_format: "%-d %b %Y"
+
+exclude:
+  - README.md
+  - .idea
